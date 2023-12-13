@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #9FC5E8;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1, h2, h3 {
+    color: #333;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+    .contact-info p {
+        margin: 5px 0;
+    }
+
+.education, .experience, .skills {
+    margin-bottom: 30px;
+}
+
+    .education h3, .experience h3, .skills h3 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+.profile-image {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+}
